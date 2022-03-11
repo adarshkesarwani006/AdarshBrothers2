@@ -3,7 +3,7 @@
  My one of Internship project where I have created this Android Application for an enterprise firm to showcase their products for more client integration and business growth.
 
 ## Regarding This Project
-## You can see this project but the contents like photos,videos locations and everything in it are copyrighted content so it is advisable to use it for reading purpose only not for reusing, editing and updating this project or templates.
+## You can see this project but the contents like photos,videos, locations and everything in it are copyrighted content so it is advisable to use it for reading purpose only not for reusing, editing and updating this project or templates.
 
 ## How To Use This Project
 
