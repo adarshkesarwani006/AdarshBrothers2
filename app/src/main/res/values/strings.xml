@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ADARSH BROTHERS</string>
+    <string name="motors">MOTORS</string>
+    <string name="dehati">DEHATI MOTORS</string>
+    <string name="indiamark">INDIA MARK II</string>
+    <string name="hdpe">HDPE PIPE</string>
+    <string name="submersible">SUBMERSIBLE PUMPS</string>
+    <string name="handpump">HAND PUMPS</string>
+    <string name="cowmats">COW MATS</string>
+    <string name="desc">Description</string>
+    <string name="image">Images</string>
+</resources>

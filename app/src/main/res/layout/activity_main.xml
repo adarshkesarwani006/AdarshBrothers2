@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="178dp"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/desc2">
+        </ImageView>
+
+        <!--Category Motors-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/number_one"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/motors"
+                style="@style/CategoryStyle"
+                android:text="@string/motors" />
+        </FrameLayout>
+
+        <!--Category Dehati Motors-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/dehati2"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/dehati"
+                style="@style/CategoryStyle"
+                android:text="@string/dehati" />
+        </FrameLayout>
+
+        <!--Category India Mark-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/indiamark1"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/india"
+                style="@style/CategoryStyle"
+                android:text="@string/indiamark" />
+        </FrameLayout>
+
+        <!--Category Submersible-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/submersible4"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/sub"
+                style="@style/CategoryStyle"
+                android:text="@string/submersible" />
+        </FrameLayout>
+
+        <!--Category Cow Mat-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/cowmat4"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/cow"
+                style="@style/CategoryStyle"
+                android:text="@string/cowmats" />
+        </FrameLayout>
+
+        <!--Category HDPE Pipe-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:padding="2dp"
+                android:src="@drawable/hdpe1"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/hdpe"
+                style="@style/CategoryStyle"
+                android:text="@string/hdpe" />
+        </FrameLayout>
+
+        <!--Category Hand Pumps-->
+        <FrameLayout
+            style="@style/colors">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:padding="4dp"
+                android:src="@drawable/pump6"
+                android:contentDescription="@string/image">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/hand"
+                style="@style/CategoryStyle"
+                android:text="@string/handpump" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
